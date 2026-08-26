@@ -32,7 +32,7 @@ Inflammatory Bowel Disease (IBD) is a chronic autoinflammatory disorder with ris
 
 ---
 
-## Differential Expression & Accessibility
+## [Differential Expression & Accessibility](./workflows/workflow_DE_DA.md)
 * Differential gene expression analysis
 * Differential chromatin accessibility analysis
 * ImmDict/CytoSig/PROGENy signal-response analyses
