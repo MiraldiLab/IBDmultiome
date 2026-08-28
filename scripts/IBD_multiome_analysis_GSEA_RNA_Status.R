@@ -50,7 +50,9 @@ dir.create(base_dir_out, showWarnings = FALSE, recursive = TRUE)
 # DESeq2 results ---------------------------------------------------------------
 name_res <- "1Factor_CellType_Downsample"
 file_data <- file.path(
-  results_dir, "GSEA_RNA_Status", "res_DESeq2_IBD_multiome_RNA_Disease_Tisssue_Status_downsample_raw_unfiltered.txt"
+  results_dir,
+  "pseudobulk_RNA_DEseq2_Status", 
+  "res_DESeq2_IBD_multiome_RNA_Disease_Tisssue_Status_downsample_raw_unfiltered.txt"
 )
 
 # Ligand-receptor pair information --------------------------------------------
