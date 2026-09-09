@@ -1,0 +1,44 @@
+Pathway	Family
+ActivinA	TGFB
+BDNF	Growth factor
+BMP2	TGFB
+BMP4	TGFB
+BMP6	TGFB
+CD40L	TNF
+CXCL12	Chemokine
+EGF	Growth factor
+FGF2	Growth factor
+GCSF	Growth factor
+GDF11	TGFB
+GMCSF	Common-B chain
+HGF	Growth factor
+IFN1	Interferon
+IFNG	Interferon
+IFNL	Interferon
+IL10	IL-10
+IL12	IL6/IL12
+IL13	Common-y chain/IL13/TSLP
+IL15	Common-y chain/IL13/TSLP
+IL17A	IL17
+IL1A	IL1
+IL1B	IL1
+IL2	Common-y chain/IL13/TSLP
+IL21	Common-y chain/IL13/TSLP
+IL22	IL-10
+IL27	IL6/IL12
+IL3	Common-B chain
+IL36	IL1
+IL4	Common-y chain/IL13/TSLP
+IL6	IL6/IL12
+LIF	IL6/IL12
+LTA	TNF
+MCSF	Growth factor
+NO	Other
+OSM	IL6/IL12
+TGFB1	TGFB
+TGFB3	TGFB
+TNFA	TNF
+TRAIL	TNF
+TWEAK	TNF
+VEGFA	Growth factor
+WNT3A	Growth factor
