@@ -1,0 +1,87 @@
+Family	Cytokine	Cytokine_Str	Alternative names	Human gene symbol	Mouse gene symbol
+IL-1	IL-1α	IL1a	Interleukin 1 alpha	IL1A	Il1a
+IL-1	IL-1β	IL1b	Interleukin 1 beta	IL1B	Il1b
+IL-1	IL-1Ra	IL1ra	Interleukin 1 receptor antagonist	IL1RN	Il1rn
+IL-1	IL-18	IL18	Interleukin 18	IL18	Il18
+IL-1	IL-33	IL33	Interleukin 33	IL33	Il33
+IL-1	IL-36α	IL36a	Interleukin 36 alpha	IL36A	Il36a
+IL-1	IL-36Ra	IL36RA	Interleukin 36 receptor antagonist	IL36RN	Il36rn
+Common γ chain/IL-13/TSLP	IL-2	IL2	Interleukin 2	IL2	Il2
+Common γ chain/IL-13/TSLP	IL-4	IL4	Interleukin 4	IL4	Il4
+Common γ chain/IL-13/TSLP	IL-13	IL13	Interleukin 13	IL13	Il13
+Common γ chain/IL-13/TSLP	IL-7	IL7	Interleukin 7	IL7	Il7
+Common γ chain/IL-13/TSLP	TSLP	TSLP	Thymic stromal lymphopoietin	TSLP	Tslp
+Common γ chain/IL-13/TSLP	IL-9	IL9	Interleukin 9	IL9	Il9
+Common γ chain/IL-13/TSLP	IL-15	IL15	Interleukin 15	IL15	Il15
+Common γ chain/IL-13/TSLP	IL-21	IL21	Interleukin 21	IL21	Il21
+Common β chain	IL-3	IL3	Interleukin 3	IL3	Il3
+Common β chain	IL-5	IL5	Interleukin 5	IL5	Il5
+Common β chain	GM-CSF	GM-CSF	Granulocyte-macrophage colony-stimulating factor, Colony stimulating factor 2	CSF2	Csf2
+IL-6/IL-12	IL-6	IL6	Interleukin 6	IL6	Il6
+IL-6/IL-12	IL-11	IL11	Interleukin 11	IL11	Il11
+IL-6/IL-12	IL-27	IL27	Interleukin 27	IL27, EBI3	Il27, Ebi3
+IL-6/IL-12	IL-30	IL30	Interleukin 30	IL27	Il27
+IL-6/IL-12	IL-31	IL31	Interleukin 31	IL31	Il31
+IL-6/IL-12	LIF	LIF	Leukemia inhibitory factor	LIF	Lif
+IL-6/IL-12	OSM	OSM	Oncostatin M	OSM	Osm
+IL-6/IL-12	CT-1	Cardiotrophin-1	Cardiotrophin 1	CTF1	Ctf1
+IL-6/IL-12	NP	Neuropoietin	Neuropoietin, Cardiotrophin 2, CT-2	CTF2P	Ctf2
+IL-6/IL-12	IL-12	IL12	Interleukin 12	IL12A, IL12B	Il12a, Il12b
+IL-6/IL-12	IL-23	IL23	Interleukin 23	IL23A, IL12B	Il23a, Il12b
+IL-6/IL-12	IL-Y	IL-Y	Synthetic member of the IL-12 family: p40 and p28	IL27, IL12B	Il27, Il12b
+IL-10	IL-10	IL10	Interleukin 10	IL10	Il10
+IL-10	IL-19	IL19	Interleukin 19	IL19	Il19
+IL-10	IL-20	IL20	Interleukin 20	IL20	Il20
+IL-10	IL-22	IL22	Interleukin 22	IL22	Il22
+IL-10	IL-24	IL24	Interleukin 24	IL24	Il24
+IL-17	IL-17A	IL17A	Interleukin 17A	IL17A	Il17a
+IL-17	IL-17B	IL17B	Interleukin 17B	IL17B	Il17b
+IL-17	IL-17C	IL17C	Interleukin 17C	IL17C	Il17c
+IL-17	IL-17D	IL17D	Interleukin 17D	IL17D	Il17d
+IL-17	IL-17E	IL17E	Interleukin 17E, Interleukin 25, IL-25	IL25	Il25
+IL-17	IL-17F	IL17F	Interleukin 17F	IL17F	Il17f
+Interferon	IFN-α1	IFNa1	Interferon alpha 1	IFNA1	Ifna1
+Interferon	IFN-β	IFNb	Interferon beta 1	IFNB1	Ifnb1
+Interferon	IFN-ε	IFNe	Interferon epsilon	IFNE	Ifne
+Interferon	IFN-κ	IFNk	Interferon kappa	IFNK	Ifnk
+Interferon	IFN-γ	IFNg	Interferon gamma	IFNG	Ifng
+Interferon	IFN-λ2	IFNl2	Interferon lambda 2, IL-28A	IFNL2	Ifnl2
+TNF	LT-α1/β2	LTA1-B2	TNFSF1/TNFSF3, Lymphotoxin alpha1/beta2, TNF-β1/LT-β2	LTA, LTB	Lta, Ltb
+TNF	LT-α2/β1	LTA2-B1	TNFSF1/TNFSF3, Lymphotoxin alpha2/beta1, TNF-β2/LT-β1	LTA, LTB	Lta, Ltb
+TNF	TNF-α	TNFa	TNFSF2, Tumor necrosis factor alpha, Tumor necrosis factor	TNF	Tnf
+TNF	OX40L	OX40L	TNFSF4, TNF superfamily member 4, OX40 ligand	TNFSF4	Tnfsf4
+TNF	CD40L	CD40L	TNFSF5, CD40 ligand, CD154	CD40LG	Cd40lg
+TNF	FasL	FasL	TNFSF6, Fas ligand	FASLG	Fasl
+TNF	CD27L	CD27L	TNFSF7, CD70	CD70	Cd70
+TNF	CD30L	CD30L	TNFSF8, TNF superfamily member 8	TNFSF8	Tnfsf8
+TNF	4-1BBL	41BBL	TNFSF9, TNF superfamily member 9, 4-1BB ligand	TNFSF9	Tnfsf9
+TNF	TRAIL	TRAIL	TNFSF10, TNF superfamily member 10	TNFSF10	Tnfsf10
+TNF	RANKL	RANKL	TNFSF11, TNF superfamily member 11, TRANCE	TNFSF11	Tnfsf11
+TNF	TWEAK	TWEAK	TNFSF12, TNF superfamily member 12	TNFSF12	Tnfsf12
+TNF	APRIL	APRIL	TNFSF13, TNF superfamily member 13, CD256	TNFSF13	Tnfsf13
+TNF	BAFF	BAFF	TNFSF13B, TNF superfamily member 13b, CD257	TNFSF13B	Tnfsf13b
+TNF	LIGHT	LIGHT	TNFSF14, TNF superfamily member 14, CD258	TNFSF14	Tnfsf14
+TNF	TL1A	TL1A	TNFSF15, TNF superfamily member 15, TL1	TNFSF15	Tnfsf15
+TNF	GITRL	GITRL	TNFSF18, TNF superfamily member 18, AITRL, Glucocorticoid-induced TNF-related ligand	TNFSF18	Tnfsf18
+Complement	C3a	C3a	Complement component C3a	C3	C3
+Complement	C5a	C5a	Complement component C5a	C5	Hc
+Growth factor	FLT3L	Flt3l	Fms related receptor tyrosine kinase 3 ligand	FLT3LG	Flt3l
+Growth factor	IL-34	IL34	Interleukin 34	IL34	Il34
+Growth factor	M-CSF	M-CSF	Macrophage colony-stimulating factor, CSF1, Colony stimulating factor 1	CSF1	Csf1
+Growth factor	G-CSF	G-CSF	Granulocyte colony-stimulating factor, CSF3, Colony stimulating factor 3	CSF3	Csf3
+Growth factor	SCF	SCF	KITLG, KIT ligand	KITLG	Kitl
+Growth factor	EGF	EGF	Epidermal growth factor	EGF	Egf
+Growth factor	VEGF	VEGF	VEGF A165, Vascular endothelial growth factor	VEGFA	Vegfa
+Growth factor	FGF-β	FGF-basic	Fibroblast growth factor 2	FGF2	Fgf2
+Growth factor	HGF	HGF	Hepatocyte growth factor	HGF	Hgf
+Growth factor	IGF-1	IGF-I	Insulin like growth factor 1	IGF1	Igf1
+Other	TGF-β1	TGF-beta-1	TGF-β, Transforming growth factor beta 1	TGFB1	Tgfb1
+Other	GDNF	GDNF	Glial cell derived neurotrophic factor	GDNF	Gdnf
+Other	PSPN	Persephin	Persephin	PSPN	Pspn
+Other	PRL	Prolactin	Prolactin	PRL	Prl
+Other	Leptin	Leptin	Leptin	LEP	Lep
+Other	AdipoQ	Adiponectin	Adiponectin	ADIPOQ	Adipoq
+Other	ADSF	Resistin	Resistin, Adipose tissue-specific secretory factor	RETN	Retn
+Other	Noggin	Noggin	Noggin	NOG	Nog
+Other	Decorin	Decorin	Decorin	DCN	Dcn
+Other	TPO	TPO	Thrombopoietin	THPO	Thpo
