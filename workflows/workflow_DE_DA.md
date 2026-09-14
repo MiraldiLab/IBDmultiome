@@ -30,7 +30,7 @@ To reproduce the visualization of 20 shared signals between ImmDict and CytoSig 
 
 To reproduce the visualization of PROGENy results in Fig 3. C, following the scripts here:
 
-To reproduce the scatter plot visualization of comparing same or closely related cell type enrichment results in Fig S4. D-G, following the scripts here: 
+To reproduce the scatter plot visualization of comparing same or closely related cell type enrichment results in Fig S4. D-G, following the scripts here: [`ScatterPlot`] (../scripts/ScatterPlot)
 
 To reproduce the visualization of all the significantly enriched (**Padj < 0.1**) ImmDict and CytoSig signal responses 
 
