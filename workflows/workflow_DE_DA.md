@@ -34,4 +34,4 @@ To reproduce the visualization of all the significantly enriched (**Padj < 0.1**
 
 To reproduce the scatter plot visualization of comparing same or closely related cell type enrichment results between different disease, tissue contexts in **Fig S4. D-G**, following the scripts here: [`ScatterPlot`](../scripts/ScatterPlot)
 
-
+To reproduce the dotPlot visualization of selected signal ligands and receptors in **Fig S4. I**, download the multiome obj from GEO for gene expression, following the scripts here: [`ImmDict_select_sig_pathway_Log2FC_dotplot_I_vs_NI_ligand_receptor.R`](../scripts/Ligand_receptor_expression/ImmDict_select_sig_pathway_Log2FC_dotplot_I_vs_NI_ligand_receptor.R)
