@@ -18,6 +18,6 @@ Immune Dictionary cytokine-response signatures were processed from cell type-res
 
 ### Signal-response enrichment results process and visualization
 
-Following the GSEA and RNA-Enrich analysis of signal response, process the results to incorporate nominal expression of corresponding ligand and receptor complexes (detected in >=5% nuclei in any disease, tissue, response group for a given cell type) information. For **fgsea** results following the scripts here: [`Downsampled_fgsea_Wald_statistics `](../scripts/Downsampled_fgsea_Wald_statistics); **RNA-Enrich** results following the scripts here: [`Downsampled_RNAEnrich`](../scripts/Downsampled_RNAEnrich).
+Following the GSEA and RNA-Enrich analysis of signal response, process the results to incorporate nominal expression of corresponding ligand and receptor complexes (detected in >=5% nuclei in any disease, tissue, response group for a given cell type) information. For **fgsea** results following the scripts here: [`Downsampled_fgsea_Wald_statistics `](../scripts/Downsampled_fgsea_Wald_statistics);**RNA-Enrich** results following the scripts here: [`Downsampled_RNAEnrich`](../scripts/Downsampled_RNAEnrich).
 
 
