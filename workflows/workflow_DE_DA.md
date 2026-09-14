@@ -16,4 +16,8 @@ Analyses are performed separately for CD rectum, CD terminal ileum, and UC rectu
 [`process_ImmuneDictionary_Cui2024_combine_pval.R`](../scripts/process_ImmuneDictionary_Cui2024_combine_pval.R)
 Immune Dictionary cytokine-response signatures were processed from cell type-resolved differential expression results. For each cytokine–gene pair, signed Z-scores were calculated from the adjusted *P* values and direction of effect and combined across immune cell populations using an unweighted Stouffer Z-score. Positively regulated genes were ranked by the resulting meta-analysis *P* value, and the top genes were retained as cytokine-response gene sets.
 
+### Signal-response enrichment results process and visualization
+
+Following the GSEA and RNA-Enrich analysis of signal response, process the results to incorporate nominal expression of corresponding ligand and receptor complexes (detected in >=5% nuclei in any disease, tissue, response group for a given cell type) information. For **fgsea** results following the scripts here: [`Downsampled_fgsea_Wald_statistics `](../scripts/Downsampled_fgsea_Wald_statistics); **RNA-Enrich** results following the scripts here: [`Downsampled_RNAEnrich`](../scripts/Downsampled_RNAEnrich).
+
 
