@@ -1,0 +1,15 @@
+CD4_T_cell_CD_R
+CD4_T_Eff_CD_R
+CD8_T_cell_CD_R
+gdT_cell_CD_R
+B_cell_CD_R
+Plasma_cell_CD_R
+Macrophage_CD_R
+Fibroblast_CD_R
+Colonocyte_CD_R
+TA_CD_R
+Cycling_TA_CD_R
+Goblet_CD_R
+Immature_Goblet_CD_R
+Stem_CD_R
+Enteroendocrine_CD_R
