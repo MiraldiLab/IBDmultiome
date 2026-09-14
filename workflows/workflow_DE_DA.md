@@ -24,14 +24,14 @@ To reproduce the main and supplemental figure decks, firstly order the signals b
 
 For heatmap visualizations, enrichments were shown as signed -log10Padj (upregulated in TNFi NR >0, upregulated in TNFi response <0) from fgsea in the heatmaps, only significantly enriched signals from both RNA-Enrich and fgsea results were included and marked with asterisk, whereas significantly enriched signals exclusively in fsgea but not RNA-Enrich were adjusted to 0 for -log10Padj. 
 Ligands complexes with nominal expression of all subunits in any cell type, response groups in the given disease, tissue context were labelled in bold, similarly receptor complexes with nominal expression of subunits in the corresponding cell type, disease, tissue, and upregulated response group were highlighted in black box. 
-Signals with either ligand or receptor as IBD risk loci enhancer gene targets based on gene proximal(+/- 2kb of TSS) or distal(three-dimensional experimental data such as promoter-capture HiC, microC, TRAC-loop) from matched cell type predictions were labelled with superscript i.
+Signals with either ligand or receptor as IBD risk loci enhancer gene targets based on gene proximal(+/- 2kb of TSS) or distal(three-dimensional experimental data such as promoter-capture HiC, microC, TRAC-loop) from matched cell type predictions were labelled with superscript _i_.
 
-To reproduce the visualization of 20 shared signals between ImmDict and CytoSig database in Fig 3.A, following the scripts here:
+To reproduce the visualization of 20 shared signals between ImmDict and CytoSig database in **Fig 3.A**, following the scripts here:
 
-To reproduce the visualization of PROGENy results in Fig 3. C, following the scripts here:
+To reproduce the visualization of PROGENy results in **Fig 3. C**, following the scripts here:[`PROGENy_viz`](../scripts/PROGENy_viz)
 
-To reproduce the scatter plot visualization of comparing same or closely related cell type enrichment results in Fig S4. D-G, following the scripts here: [`ScatterPlot`](../scripts/ScatterPlot)
+To reproduce the visualization of all the significantly enriched (**Padj < 0.1**) ImmDict and CytoSig signal responses in **Fig S4. A-C**, following the scripts here: 
 
-To reproduce the visualization of all the significantly enriched (**Padj < 0.1**) ImmDict and CytoSig signal responses 
+To reproduce the scatter plot visualization of comparing same or closely related cell type enrichment results in **Fig S4. D-G**, following the scripts here: [`ScatterPlot`](../scripts/ScatterPlot)
 
 
