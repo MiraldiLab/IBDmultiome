@@ -33,7 +33,7 @@ dir.create(dir_out, showWarnings=FALSE, recursive=TRUE)
 
 # scRNA data
 file_data <- file.path(data_dir,paste('IBD_multiome_obj.rds')) #download from GEO
-file_IBD_risk_gene<-file.path(data_dir,paste('/IBD_risk_loci_enhancer_gene_targets_intersect_eQTL_ABC_2kb_TSS_3D_chromatin_filter_5pct_min_expression_by_CellType.txt'))
+file_IBD_risk_gene<-file.path(data_dir,paste('IBD_risk_loci_enhancer_gene_targets_intersect_eQTL_ABC_2kb_TSS_3D_chromatin_filter_5pct_min_expression_by_CellType.txt'))
 file_CRC_risk_gene<-file.path(data_dir,paste('CRC_risk_loci_enhancer_gene_targets_intersect_eQTL_ABC_2kb_TSS_3D_chromatin_filter_5pct_min_expression_by_CellType.txt'))
 data_assay <- 'RNA' # data assay
 order_celltype<-c('CD4_T_cell','CD4_T_Eff','CD8_T_cell','Naive_T_cell','gdT_cell','NK_cell','ILC',
