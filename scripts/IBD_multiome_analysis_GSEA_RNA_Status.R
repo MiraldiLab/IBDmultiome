@@ -152,7 +152,7 @@ if (type_method == "fgsea") {
 dir.create(dir_out, showWarnings = FALSE, recursive = TRUE)
 
 if (type_method == "RNAEnrich") {
-  source(file.path(script_dir, "RNA-Enrich.r"))
+  source(file.path(script_dir, "helper", "RNA-Enrich.r"))
 }
 
 # ==============================================================================

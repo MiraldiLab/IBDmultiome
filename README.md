@@ -22,13 +22,14 @@ Inflammatory Bowel Disease (IBD) is a chronic autoinflammatory disorder with ris
 
 ---
 
-## Multiome Processing
+## [Multiome Processing](./workflows/workflow_multiome_processing.md)
+* Raw data processing
 * Quality control
-* Doublet removal
-* Integration
 * Peak calling
-* Bridge integration
+* Sample integration
+* Cell clustering
 * Cell type annotation
+* Bridge integration
 
 ---
 
