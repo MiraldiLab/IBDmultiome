@@ -63,7 +63,7 @@ apptainer run --nv \
 
 ---
 
-## [Gene filtering](./scripts/IBD_multiome_data_gene_filter.R)
+## [Gene filtering](../scripts/IBD_multiome_data_gene_filter.R)
 
 We filter genes for downstream analysis based on the following criteria:
 * Keep genes encoded on autosomal, chrX, and chrM chromosomes.
@@ -81,15 +81,15 @@ We extracted these genes from the Cell Ranger gene annotation gtf file. We downl
 
 We identified cell doublets based on RNA or ATAC, separately. For cells with both quality RNA and ATAC signal, we removed cells determined to be doublets by both methods. For cells with only quality ATAC, we removed cell doublets identified by the ATAC-based method.
 
-#### [ATAC cell doublets](./scripts/IBD_multiome_qc_atac_doublets_ArchR.R)
+#### [ATAC cell doublets](../scripts/IBD_multiome_qc_atac_doublets_ArchR.R)
 
 We identified cell doublets from ATAC using [ArchR](https://github.com/GreenleafLab/ArchR) setting the doublet filter ratio to 0.5.
 
-#### [RNA cell doublets](./scripts/IBD_multiome_qc_rna_doublets.R)
+#### [RNA cell doublets](../scripts/IBD_multiome_qc_rna_doublets.R)
 
 We identified cell doublets from RNA using [DoubletFinder](https://github.com/chris-mcginnis-ucsf/DoubletFinder/tree/master), assuming a doublet rate of [0.8% per 1000 cells](https://kb.10xgenomics.com/hc/en-us/articles/360054599512-What-is-the-cell-multiplet-rate-when-using-the-3-CellPlex-Kit-for-Cell-Multiplexing-) recovered and identifying pK by running ```paramSweep_v3```.
 
-### [Filter cell barcodes](./scripts/IBD_multiome_qc_metrics.R)
+### [Filter cell barcodes](../scripts/IBD_multiome_qc_metrics.R)
 
 For each sample, we filtered cell barcodes called by Cell Ranger ARC based on the following metrics indicating quality transcript and accessibility signal:
 * RNA: total UMIs, total genes detected, percent mitochondrial gene expression
@@ -97,7 +97,7 @@ For each sample, we filtered cell barcodes called by Cell Ranger ARC based on th
 
 We identified singlet cell barcodes with quality RNA, quality ATAC, and those with both quality RNA and ATAC.
 
-### [Filtered Seurat objects](./scripts/IBD_multiome_qc_filter.R)
+### [Filtered Seurat objects](../scripts/IBD_multiome_qc_filter.R)
 
 For each sample, we generated Seurat objects containing cells with either quality ATAC or quality RNA and ATAC for downstream processing and analysis.
 
@@ -105,13 +105,13 @@ For each sample, we generated Seurat objects containing cells with either qualit
 
 ## Peak calling
 
-### [Fragment file modification](./scripts/IBD_multiome_process_atac_fragments.R)
+### [Fragment file modification](../scripts/IBD_multiome_process_atac_fragments.R)
 
 The [Cell Ranger fragment file](https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/output/fragments) specifies genomic coordinates for each ATAC fragment. We modified the fragment file of each sample to specify the transposase cut sites at each end of the fragment. We used these modified fragment files for downstream peaking calling with MACS2 (described below).
 
 We kept only fragments from cells passing QC, and we removed fragments overlapping [blacklist regions](./data/blacklist_hg38_ENCODE_maxATAC_extended.bed). We used the extended hg38 blacklist curated by [Cazares et al.](https://pubmed.ncbi.nlm.nih.gov/36719906/) for [maxATAC](https://github.com/MiraldiLab/maxATAC).
 
-### [Call peaks per sample](./scripts/IBD_multiome_process_atac_peaks_sample.R)
+### [Call peaks per sample](../scripts/IBD_multiome_process_atac_peaks_sample.R)
 
 We called peaks per sample using modified fragment files and [MACS2](https://github.com/macs3-project/MACS). We broadly clustered cells with quality ATAC using the standard Seurat workflow. We ensured a minimum of 3 million fragments per cluster by merging small clusters with nearest neighbors based on correlation of pseudobulk accessibility. Example MACS2 call with parameter values:
 
@@ -119,7 +119,7 @@ We called peaks per sample using modified fragment files and [MACS2](https://git
 macs2 callpeak -t <fragments.bed> -f BED -g 2.9e9 --keep-dup all --nomodel --llocal 10000 --shift -100 --extsize 200 -q 0.001
 ```
 
-### [Reference peak mapping](./scripts/IBD_multiome_process_atac_peaks_ref.R)
+### [Reference peak mapping](../scripts/IBD_multiome_process_atac_peaks_ref.R)
 
 We used the union of cluster-specific peaks across all samples as reference peaks for downstream processing of ATAC. For each sample, we mapped fragments to these reference peaks creating new sample-specific Seurat objects for downstream integration.
 
@@ -129,15 +129,15 @@ We used the union of cluster-specific peaks across all samples as reference peak
 
 We integrated samples using [Harmony](https://github.com/immunogenomics/harmony).
 
-### [ATAC integration](./scripts/IBD_multiome_process_integrate_atac.R)
+### [ATAC integration](../scripts/IBD_multiome_process_integrate_atac.R)
 
 For cells with quality ATAC, we applied Harmony on the LSI dimensional reduction and constructed a UMAP from the Harmony dimensional reduction.
 
-### [Multimodal integration](./scripts/IBD_multiome_process_integrate_multiome.R)
+### [Multimodal integration](../scripts/IBD_multiome_process_integrate_multiome.R)
 
 For cells with quality RNA and ATAC, we applied Harmony on each modality separately. For RNA, we ran Harmony on the PCA dimensional reduction. We then construct a [Seurat weighted nearest neighbor (WNN) graph](https://pubmed.ncbi.nlm.nih.gov/34062119/) from both Harmony dimensional reductions for downstream clustering.
 
-### [Sub-population multimodal integration](./scripts/IBD_multiome_process_integrate_subset.R)
+### [Sub-population multimodal integration](../scripts/IBD_multiome_process_integrate_subset.R)
 
 After broadly annotating cells, we further subset populations and re-integrated samples. Clustering on these sub-populations was used for annotation of finer cell types/states.
 
@@ -147,9 +147,9 @@ After broadly annotating cells, we further subset populations and re-integrated 
 
 We clustered cells with quality ATAC and RNA using Leiden clustering on the Seurat WNN graph. The clustering resolution parameter was selected based on visual inspection and marker gene expression.
 
-### [Clustering all cells](./scripts/IBD_multiome_analysis_cluster.R)
+### [Clustering all cells](../scripts/IBD_multiome_analysis_cluster.R)
 
-### [Clustering sub-populations](./scripts/IBD_multiome_analysis_cluster_subset.R)
+### [Clustering sub-populations](../scripts/IBD_multiome_analysis_cluster_subset.R)
 
 ---
 
@@ -161,10 +161,10 @@ To guide cell-type annotation, we performed Seurat anchor-based label transfer f
 
 For each sample, we transfered annotations to cells with quality RNA and ATAC using the RNA modality.
 
-#### [Pan-cell-type label transfer](./scripts/IBD_multiome_analysis_transfer.R)
+#### [Pan-cell-type label transfer](../scripts/IBD_multiome_analysis_transfer.R)
 
-#### [Sub-population label transfer](./scripts/IBD_multiome_analysis_transfer_subset.R)
+#### [Sub-population label transfer](../scripts/IBD_multiome_analysis_transfer_subset.R)
 
 We annotated cell types/states based on marker gene expression and label transfer from publicly available scRNA-seq datasets from human gut.
 
-### [Apply Cluster -> Celltype annotation](./scripts/IBD_multiome_analysis_annotation.R)
+### [Apply Cluster -> Celltype annotation](../scripts/IBD_multiome_analysis_annotation.R)
