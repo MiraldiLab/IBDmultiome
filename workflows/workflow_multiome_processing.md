@@ -155,6 +155,8 @@ We clustered cells with quality ATAC and RNA using Leiden clustering on the Seur
 
 ## Cell type annotation
 
+We annotated cell types/states based on marker gene expression and label transfer from publicly available scRNA-seq datasets from human gut. Annotation of ATAC cells without quality RNA was additionally guided by [Seurat bridge integration](https://pubmed.ncbi.nlm.nih.gov/37231261/).
+
 ### Label transfer
 
 To guide cell-type annotation, we performed Seurat anchor-based label transfer from previously published gut scRNA-seq atlases from [Smillie et al. 2019](https://pubmed.ncbi.nlm.nih.gov/31348891/), [Elmentaite et al. 2021](https://pubmed.ncbi.nlm.nih.gov/34497389/), and [Hickey et al. 2023](https://pubmed.ncbi.nlm.nih.gov/37468586/).
@@ -165,6 +167,6 @@ For each sample, we transfered annotations to cells with quality RNA and ATAC us
 
 #### [Sub-population label transfer](../scripts/IBD_multiome_analysis_transfer_subset.R)
 
-We annotated cell types/states based on marker gene expression and label transfer from publicly available scRNA-seq datasets from human gut.
+### [Bridge integration](../scripts/IBD_multiome_analysis_bridge_integration.R)
 
 ### [Apply Cluster -> Celltype annotation](../scripts/IBD_multiome_analysis_annotation.R)

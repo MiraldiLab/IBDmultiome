@@ -29,7 +29,6 @@ Inflammatory Bowel Disease (IBD) is a chronic autoinflammatory disorder with ris
 * Sample integration
 * Cell clustering
 * Cell type annotation
-* Bridge integration
 
 ---
 
