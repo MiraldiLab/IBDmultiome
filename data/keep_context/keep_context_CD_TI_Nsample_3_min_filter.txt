@@ -1,0 +1,16 @@
+CD4_T_cell_CD_TI
+CD4_T_Eff_CD_TI
+CD8_T_cell_CD_TI
+Naive_T_cell_CD_TI
+gdT_cell_CD_TI
+B_cell_CD_TI
+Plasma_cell_CD_TI
+DC_CD_TI
+Fibroblast_CD_TI
+Endothelial_CD_TI
+Enterocyte_CD_TI
+Immature_Enterocyte_CD_TI
+TA_CD_TI
+Cycling_TA_CD_TI
+Goblet_CD_TI
+Stem_CD_TI

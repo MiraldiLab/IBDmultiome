@@ -1,0 +1,13 @@
+CD4_T_cell_UC_R
+CD4_T_Eff_UC_R
+B_cell_UC_R
+Macrophage_UC_R
+Fibroblast_UC_R
+Colonocyte_UC_R
+Immature_Colonocyte_UC_R
+TA_UC_R
+Cycling_TA_UC_R
+Goblet_UC_R
+Immature_Goblet_UC_R
+Stem_UC_R
+Enteroendocrine_UC_R
