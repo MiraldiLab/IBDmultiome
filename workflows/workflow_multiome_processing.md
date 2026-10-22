@@ -170,3 +170,7 @@ For each sample, we transfered annotations to cells with quality RNA and ATAC us
 ### [Bridge integration](../scripts/IBD_multiome_analysis_bridge_integration.R)
 
 ### [Apply Cluster -> Celltype annotation](../scripts/IBD_multiome_analysis_annotation.R)
+
+### [Terminal ileum cell annotation](../results/annotation_celltype/IBD_multiome_IBD_analysis_annotation_TI.md)
+
+### [Rectum cell annotation](../results/annotation_celltype/IBD_multiome_IBD_analysis_annotation_R.md)
