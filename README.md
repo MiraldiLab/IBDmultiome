@@ -40,7 +40,7 @@ Inflammatory Bowel Disease (IBD) is a chronic autoinflammatory disorder with ris
 
 ---
 
-## [Genetic Risk Integration] (./workflows/workflow_genetic_risk_analysis.md)
+## [Genetic Risk Integration](./workflows/workflow_genetic_risk_analysis.md)
 * RELI GWAS enrichment analyses
 * Enhancer-to-gene mapping
   * Activity-by-Contact (ABC)
